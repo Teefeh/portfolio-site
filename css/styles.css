@@ -1,0 +1,221 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'montserrat';
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #0e304c;
+}
+
+.row .display-text{
+  padding: 0 5%;
+}
+
+.row .display-text .btn-dark{
+  background-color: #F5A302;
+}
+
+.row .display-text .btn-dark:hover{
+  opacity: 90%;
+}
+
+/* logo */
+.dot{
+  color: #F5A302;
+}
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link a{
+  color: #fff;
+  font-weight: lighter;
+  border: 1px solid black;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "montserrat";
+  font-weight: lighter;
+}
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.bolu{
+  width: 95%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  left: -5%;
+  top: -32%;
+}
+
+.letter-spacing{
+  letter-spacing: 0.2rem;
+}
+
+/* About section */
+#About{
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.About-box{
+  padding: 5%;
+  text-align: right;
+}
+
+.About{
+  text-align: left;
+}
+
+.profile-pic{
+  width: 90%;
+  margin: 25% auto 0;
+}
+
+
+/* Skills section */
+
+#Skills {
+  padding: 10% 15%;
+  text-align: left;
+  background-color: rgba(196, 196, 196, 0.2);
+}
+
+.skills{
+  text-align: center;
+  padding-bottom: 7%;
+  color: #0e304c;
+}
+
+.progress-bar{
+  background-color: #F5A302;
+  color: #0e304c;
+}
+
+.progress{
+  background-color: rgba(14, 48, 76, .2);
+}
+
+.progress-title{
+  color: #0e304c;
+  font-weight: normal;
+  padding: 2% 0;
+}
+
+/* contact me */
+
+.write-me{
+  color: #f5a302;
+}
+
+.header{
+  color: #0e304c;
+}
+
+.form-control{
+  border: 0;
+  background-color: rgba(196, 196, 196, .2);
+  border-radius: .8rem;
+}
+
+.contact-container .contact-btn .btn{
+  background-color: #F5A302;
+  border: 0;
+}
+
+.contact-container .contact-btn .btn:hover{
+  opacity: 90%;
+}
+
+/* footer section */
+
+hr{
+  margin: 0 5%;
+}
+
+.footer-container{
+  padding: 5% 15%;
+}
+
+.icons{
+  padding: 0 2.5rem 2rem;
+  width: 12%;
+}
+
+/* contact section */
+
+.contact-container{
+  padding: 7% 15%;
+}
+
+.contact-container > .header {
+  padding-bottom: 2.5rem;
+  margin: 0 !important;
+}
+
+.form-group{
+  margin-bottom: 2rem;
+}
+
+.contact-container .contact-btn{
+  text-align: right;
+}
+
+.footer-container{
+  text-align: center;
+}
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .bolu{
+    position: static;
+    transform: rotate(0);
+  }
+}
